@@ -64,5 +64,21 @@ WHERE primary_icd10 = '' OR last_cpt = '';
 ## Query Results
 ### Query A
   Shows the amount of patients (500)
- 
+ ![A](images/A.png)
+
+ ### Query B
+  Totals the number of patients and lists them in descending order
+ ![B](images/B.png)
+
+ ### Query C
+  Lists patients with CPT 992 and last visit is after 1/1/2025
+ ![C](images/C.png)
+
+ ### Query D
+  5 oldest patients present within database
+ ![D](images/D.png)
+
+### Query E
+  To check for missing / empty codes. There are none present.
+ ![E](images/E.png)
  
